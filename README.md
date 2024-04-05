@@ -14,7 +14,7 @@ The sections below detail the system requirements, how to execute the macro, and
 **This code has been tested on Windows only**.
 
 ### Required MATLAB Version
-The code should run fine on any version of MATLAB **equal to or above R2019**.
+The code should run fine on any version of MATLAB **equal to or above R2019. It works best using R2023a.**
 
 If you are using a MATLAB version different from R2023a, ensure to manually open these apps in AppDesigner: ImageGateway3.mlapp, applicationBinaryMap_app.mlapp, BinMapCCMatrix.mlapp, and save them. This allows MATLAB to update the GUI handles according to your version. Otherwise, depending on your version, some handle information might be missing and the macro will not run.
 
