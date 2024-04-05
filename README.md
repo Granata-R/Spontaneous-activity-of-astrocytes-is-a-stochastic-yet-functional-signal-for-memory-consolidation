@@ -36,7 +36,10 @@ To do the reproducible run download this repository, unzip it, and open MATLAB. 
 
 **Note: while unzipping, make sure to choose a short name for the folder. Folder names that are too long might block the unzipping.**
 
-### 3.2 Run the script and give input data
+### 3.2 Download data
+Data are available on [this public G-Node repository](https://gin.g-node.org/RattoLab/Spontaneous-activity-of-astrocytes-is-a-stochastic-yet-functional-signal-for-memory-consolidation/settings). Dowload the repository, unzip the file named '2 Jul B 1409 - 3DMean3x3x2.tif' and move it into the subfolder '/data'.
+
+### 3.3 Run the script and give input data
 Once you are in the **/code** folder in MATLAB, you can run the script **IG_MACRO_Padua_Single_experiment.m** to launch the analysis.
 
 This script runs the applications and presses the handles in the correct order. It assumes that the handle values are the default ones already set in AppDesigner; thus, please do not make any changes in the GUI if you intend to run this macro for reproducibility!
@@ -49,10 +52,10 @@ By running this script, the user is prompted to perform three actions:
 
 3) Define the astrocyte ID and µm/px ratio (simply click **OK**; it's not critical for the example).
 
-The elapsing time is around 1 minute. At the end of the macro computation, you should encounter a window similar to the one in Fig. 3.2.a and a dialog "Macro Finished" should appear.  
+The elapsing time is around 1 minute. At the end of the macro computation, you should encounter a window similar to the one in Fig. 3.3.a and a dialog "Macro Finished" should appear.  
 
-[![Fig. 3.2.a](https://i.imgur.com/LXwnvDb.png)](https://i.imgur.com/LXwnvDb.png)
-_Fig. 3.2.a_
+[![Fig. 3.3.a](https://i.imgur.com/LXwnvDb.png)](https://i.imgur.com/LXwnvDb.png)
+_Fig. 3.3.a_
 
 The **"/results"** folder should also appear, containing two subfolders named **"results/EventsAndClusters"** and **"results/Cross-correlation"**. In these two subfolders, the raw output data is stored as .mat files, which you can browse through the GUIs.
 
