@@ -1,0 +1,20 @@
+metadata_version: 1
+name: Spontaneous activity of astrocytes is a stochastic yet functional signal for
+  memory consolidation
+description: This capsule contains the MATLAB code used for microdomain extraction
+  and cross-correlation analysis used for the manuscript Spontaneous activity of astrocytes
+  is a stochastic yet functional signal for memory consolidation by Losi G. et al.
+  The analysis pipeline was conceived by Gian Michele Ratto and implemented by Rocco
+  Granata. The IG_MACRO and its guide were written by Rocco Granata.
+authors:
+- name: Gian Michele Ratto
+  affiliations:
+  - name: Institute of Neuroscience, National Research Council
+- name: Rocco Granata
+  affiliations:
+  - name: Institute of Nanoscience, National Research Council (CNR-NANO) and Center
+      for 13 Nanotechnology Innovation (NEST), Scuola Normale Superiore; Pisa, 56126,
+      Italy
+corresponding_contributor:
+  name: Gian Michele Ratto
+  email: gianmichele.ratto@sns.it
