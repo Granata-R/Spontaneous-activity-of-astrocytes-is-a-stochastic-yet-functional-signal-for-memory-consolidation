@@ -37,7 +37,7 @@ To do the reproducible run download this repository, unzip it, and open MATLAB. 
 **Note: while unzipping, make sure to choose a short name for the folder. Folder names that are too long might block the unzipping.**
 
 ### 3.2 Download data
-Data are available on [this public G-Node repository](https://gin.g-node.org/RattoLab/Spontaneous-activity-of-astrocytes-is-a-stochastic-yet-functional-signal-for-memory-consolidation). Dowload the repository, unzip the file named '2 Jul B 1409 - 3DMean3x3x2.tif' and move it into the subfolder '/data'.
+Data are available on [this public G-Node repository](https://gin.g-node.org/RattoLab/Spontaneous-activity-of-astrocytes-is-a-stochastic-yet-functional-signal-for-memory-consolidation). Dowload the repository, unzip the file named **"2 Jul B 1409 - 3DMean3x3x2.tif"** and move it into the subfolder **"/data"**.
 
 ### 3.3 Run the script and give input data
 Once you are in the **/code** folder in MATLAB, you can run the script **IG_MACRO_Padua_Single_experiment.m** to launch the analysis.
